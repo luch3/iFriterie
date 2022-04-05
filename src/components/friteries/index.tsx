@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import ICoordinates from "../../core/models/iCoordinates";
 import IFriterie from "../../core/models/iFriterie";
-import friterieService from "../../core/services/friterieService";
 import FriteriesList from "./friteriesList";
 import { getDistance } from "geolib";
 import NearestFriterie from "./nearestFriterie";
